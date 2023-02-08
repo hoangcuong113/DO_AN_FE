@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fc59724a.chunk.css",
+    "main.js": "/static/js/main.ea40a502.chunk.js",
+    "main.js.map": "/static/js/main.ea40a502.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.38b2c09a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.38b2c09a.js.map",
+    "static/css/2.4982ff03.chunk.css": "/static/css/2.4982ff03.chunk.css",
+    "static/js/2.323ce7ac.chunk.js": "/static/js/2.323ce7ac.chunk.js",
+    "static/js/2.323ce7ac.chunk.js.map": "/static/js/2.323ce7ac.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.4982ff03.chunk.css.map": "/static/css/2.4982ff03.chunk.css.map",
+    "static/css/main.fc59724a.chunk.css.map": "/static/css/main.fc59724a.chunk.css.map",
+    "static/js/2.323ce7ac.chunk.js.LICENSE.txt": "/static/js/2.323ce7ac.chunk.js.LICENSE.txt",
+    "static/media/Logo.4f13bdb9.png": "/static/media/Logo.4f13bdb9.png",
+    "static/media/HomePage.scss": "/static/media/benh-vien-cho-ray.6ea0e97d.jpg",
+    "static/media/HomeHeader.scss": "/static/media/bgc.49db9895.webp",
+    "static/media/styles.scss": "/static/media/fa-solid-900.d279d01b.svg",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.38b2c09a.js",
+    "static/css/2.4982ff03.chunk.css",
+    "static/js/2.323ce7ac.chunk.js",
+    "static/css/main.fc59724a.chunk.css",
+    "static/js/main.ea40a502.chunk.js"
+  ]
+}

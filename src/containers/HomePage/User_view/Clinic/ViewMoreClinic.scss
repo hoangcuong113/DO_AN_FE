@@ -1,0 +1,30 @@
+.more-content-container {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  .image-detail-more {
+    min-width: 20%;
+    min-height: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .content-detail-more {
+    width: 70%;
+    .name-clinc {
+      font-size: 1.2rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .address-clinic {
+      margin-top: 5px;
+      font-size: 0.9rem;
+      i {
+        font-size: 1rem;
+        margin-right: 5px;
+      }
+    }
+  }
+}

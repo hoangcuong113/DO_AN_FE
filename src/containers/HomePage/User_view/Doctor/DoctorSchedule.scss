@@ -1,0 +1,47 @@
+.schedule-container {
+  .all-days {
+    margin-bottom: 20px;
+    select {
+      border: none;
+      outline: none;
+      color: #337ab7;
+      font-weight: 600;
+      color: #337ab7;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 3px;
+      font-size: 15px;
+    }
+  }
+  .select-time {
+    margin-bottom: 18px;
+    font-weight: 600;
+    i {
+      font-size: 20px;
+    }
+    span {
+      font-size: 20px;
+      margin-left: 5px;
+    }
+  }
+  .availabel-time {
+    .button-time {
+      border: none;
+      outline: none;
+      background-color: gold;
+      padding: 12px 0;
+      min-width: 150px;
+      margin: 0 20px 20px 0;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      &:hover {
+        background-color: #2cccff;
+        color: white;
+      }
+    }
+  }
+  .no-schedule {
+    font-style: italic;
+    font-size: 16px;
+  }
+}

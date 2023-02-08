@@ -1,0 +1,27 @@
+.btn-send {
+  background-color: darkcyan;
+  padding: 8px 15px;
+  line-height: 100%;
+  &:hover {
+    background-color: rgb(7, 84, 131);
+    color: rgb(255, 255, 255);
+  }
+}
+
+.btn-cancel {
+  background-color: rgb(194, 8, 27);
+  padding: 8px 15px;
+  line-height: 100%;
+  margin-left: 15px;
+  &:hover {
+    background-color: rgb(144, 1, 1);
+    color: rgb(255, 255, 255);
+  }
+}
+
+._loading_overlay_wrapper {
+  position: unset !important;
+  ._loading_overlay_overlay {
+    z-index: 999999;
+  }
+}

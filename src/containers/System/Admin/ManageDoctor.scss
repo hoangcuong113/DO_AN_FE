@@ -1,0 +1,35 @@
+.desc-doctor {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  .content-left {
+    width: 35%;
+  }
+  .content-right {
+    width: 60%;
+    .doctor-desc {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+}
+
+.markdown-doctor {
+  margin-bottom: 20px;
+}
+
+.save-doctor-desc {
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.required-info {
+  display: flex;
+  align-items: center;
+  input {
+    padding: 0.54rem;
+  }
+}

@@ -1,0 +1,43 @@
+.content-top {
+  margin-bottom: 20px;
+  .content-top-right {
+    input {
+      padding: 7px;
+    }
+  }
+}
+
+.content-bottom {
+  border-top: 1px solid #ccc;
+  background-color: rgb(226, 223, 223);
+  padding: 10px 0;
+  .time-schedule {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    .btn-time {
+      width: 50%;
+      border: 1px solid cornflowerblue;
+      outline: none;
+      background-color: white;
+      padding: 10px;
+      border-radius: 15px;
+      &:hover {
+        background-color: rgb(191, 214, 255);
+        color: white;
+      }
+      &.selected {
+        background-color: #2cccff;
+        color: white;
+      }
+    }
+  }
+  .btn-save {
+    border: none;
+    outline: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-top: 30px;
+  }
+}

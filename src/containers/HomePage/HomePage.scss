@@ -1,0 +1,321 @@
+.section-common {
+  padding-bottom: 30px;
+  .section-container {
+    height: 100%;
+    margin: 0 auto;
+    .section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 30px 0;
+      .section-title {
+        font-weight: 600;
+      }
+      .section-btn {
+        border: none;
+        outline: none;
+        padding: 10px 15px;
+        background-color: #bebebe;
+        cursor: pointer;
+        &:hover {
+          background-color: gold;
+          color: white;
+        }
+      }
+    }
+    .section-body {
+      .section-custom {
+        padding-left: 10px;
+
+        &:hover {
+          color: cornflowerblue;
+          cursor: pointer;
+        }
+        .custom-img {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          padding: 20px 10px 40px 10px;
+          border: 2px solid #ccc;
+        }
+        .custom-handbook-section {
+          padding: 10px;
+          background-color: #fff;
+          border: 2px solid #ccc;
+        }
+        .section-img {
+          width: 100%;
+          height: 200px;
+          margin-bottom: 10px;
+          &.specialty-img {
+            // background-image: url("../../assets/images/co-xuong-khop.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          &.medical-facility-img {
+            background-image: url("../../assets/images/benh-vien-cho-ray.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          &.doctor-img {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+          }
+          &.handbook-img {
+            background-repeat: no-repeat;
+            background-size: contain;
+          }
+        }
+        .title-handbook {
+          font-weight: bold;
+          overflow: hidden;
+          display: -webkit-box;
+          -webkit-line-clamp: 1;
+          -webkit-box-orient: vertical;
+          max-width: 95%;
+        }
+        p {
+          font-size: 16px;
+          margin-bottom: 0;
+        }
+      }
+      &.section-about {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        align-items: center;
+        font-size: 15px;
+        text-align: justify;
+        .about-content {
+          height: 100%;
+          width: calc(55% - 10px);
+          overflow: hidden;
+          display: -webkit-box;
+          -webkit-line-clamp: 10;
+          -webkit-box-orient: vertical;
+        }
+
+        .about-image {
+          width: calc(45% - 10px);
+          background: url("../../assets/images/about.jpg") center center /
+            contain no-repeat;
+          height: 400px;
+          cursor: pointer;
+        }
+      }
+
+      //custom slick slider
+      .slick-prev,
+      .slick-next {
+        background-color: transparent !important;
+        z-index: 10;
+      }
+
+      .slick-disabled {
+        display: none !important;
+      }
+
+      .slick-prev {
+        left: -25px !important;
+      }
+
+      .slick-prev:before,
+      .slick-next:before {
+        font-size: 50px !important;
+        color: rgb(21, 76, 171) !important;
+      }
+
+      .slick-next {
+        right: -3px !important;
+      }
+    }
+  }
+  &.section-medical-facility {
+    background-color: #f5f5f5;
+  }
+}
+
+.footer-container {
+  width: 100%;
+  padding: 20px 0;
+  background-color: deepskyblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  a {
+    text-decoration: none;
+    display: inline;
+  }
+}
+
+.slider-nav {
+  z-index: 999999;
+  position: fixed;
+  top: 70px;
+  bottom: 0;
+  left: 0;
+  min-width: 190px;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+  .close {
+    float: right;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .content-center {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    .content-child {
+      margin-top: 10px;
+      border-bottom: 1px solid #bebebe;
+      cursor: pointer;
+      &:hover {
+        color: rgb(11, 103, 241);
+        text-shadow: 1px 1px 1px #ccc;
+      }
+      .child-title {
+        font-weight: 600;
+        font-size: 14px;
+      }
+      .child-subtitle {
+        font-size: 10px;
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .section-common
+    .section-container
+    .section-body
+    .section-custom
+    .section-img {
+    height: 115px;
+  }
+
+  .section-common .section-container .section-body .section-custom .custom-img {
+    padding: 10px 10px;
+    // min-height: 206px;
+    .doctor-img {
+      width: 80px;
+      height: 80px;
+    }
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .detail-specialty-container .detail-specialty-body .about-doctor {
+    flex-direction: column;
+    flex-wrap: wrap;
+    .about-schedule-doctor {
+      width: 100% !important;
+    }
+    .about-detail-doctor {
+      width: 100% !important;
+    }
+  }
+  .more-content-container .image-detail-more {
+    min-height: 180px !important;
+  }
+  .image-handBook-more {
+    min-height: 120px;
+    min-width: 50%;
+  }
+
+  .detail-doctor-top .detail-doctor-top-right .detail-doctor-title {
+    font-size: 25px !important;
+  }
+
+  .detail-doctor-top-left {
+    .avatar-doctor {
+      width: 80px !important;
+      height: 80px !important;
+      margin-right: 10px;
+    }
+  }
+
+  .detail-doctor-top .schedule-doctor-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    .schedule-left {
+      width: 100% !important;
+    }
+    .schedule-right {
+      width: 100% !important;
+      .doctor-more-detail {
+        border-left: unset;
+      }
+    }
+  }
+  .home-header-container
+    .home-header-content
+    .content-right
+    .content-support
+    .content-question
+    .user {
+    margin-right: 15px;
+  }
+  .content-lang {
+    display: none;
+  }
+  .home-header-container .home-header-content .content-right {
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .section-common .section-container .section-body .section-custom .custom-img {
+    padding: 10px;
+    min-height: 220px;
+  }
+  .home-header-container .home-header-content .content-left .header-logo img {
+    width: 140px;
+  }
+  .section-common .section-container .section-body .slick-next:before,
+  .section-common .section-container .section-body .slick-prev:before {
+    display: none;
+  }
+  .section-common .section-container .section-body.section-about {
+    flex-direction: column;
+    .about-image {
+      height: 190px;
+      width: 100%;
+    }
+    .about-content {
+      width: 100%;
+    }
+  }
+  .detail-specialty-container .detail-specialty-body .about-doctor {
+    .image-handBook-more {
+      width: 100%;
+    }
+    .content-handBook-more {
+      width: 100%;
+      .name-handBook {
+        height: 100%;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        font-size: 15px;
+      }
+      .content-handBook h3,
+      .content-handBook p {
+        font-size: 13px;
+      }
+    }
+  }
+}

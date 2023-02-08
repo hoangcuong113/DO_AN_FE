@@ -1,0 +1,45 @@
+.detail-specialty-container {
+  .detail-specialty-content {
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      height: 20px;
+      background: linear-gradient(to bottom, #d3d3d324, #2d34363b);
+      left: 0;
+      right: 0;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+    }
+    .clinic-name {
+      font-weight: bold;
+      color: white;
+    }
+    .view-more {
+      position: absolute;
+      bottom: 5px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #fff;
+      border: 1px solid dodgerblue;
+      color: dodgerblue;
+      cursor: pointer;
+      box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+      z-index: 2;
+      &:hover {
+        background-color: dodgerblue;
+        color: white;
+      }
+    }
+  }
+}
+
+.content-html {
+  img {
+    margin: 0 auto;
+    width: 50%;
+  }
+}

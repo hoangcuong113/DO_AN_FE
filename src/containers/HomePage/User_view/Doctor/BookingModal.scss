@@ -1,0 +1,23 @@
+.modal-schedule-container {
+  .modal-header {
+    i {
+      cursor: pointer;
+    }
+  }
+  .modal-footer {
+    button {
+      border: none;
+      outline: none;
+      padding: 8px 15px;
+      color: azure;
+      border-radius: 5px;
+    }
+    .btn-confirm {
+      background-color: gold;
+      margin-right: 10px;
+    }
+    .btn-cancel {
+      background-color: rgb(169, 164, 164);
+    }
+  }
+}

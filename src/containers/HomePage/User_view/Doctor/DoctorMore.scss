@@ -1,0 +1,96 @@
+.doctor-more-detail {
+  padding: 20px;
+  border-left: 1px solid #ccc;
+  .content-up {
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    .content-up-title {
+      font-weight: 600;
+      color: #666;
+      margin-bottom: 5px;
+      font-size: 17px;
+    }
+    .content-up-specialty {
+      font-weight: 600;
+      font-size: 15px;
+    }
+    .content-up-address {
+      font-size: 14px;
+      color: #666;
+      margin-top: 5px;
+    }
+  }
+  .content-down {
+    margin-top: 10px;
+    .content-down-shot {
+      .content-down-shot-title {
+        font-weight: 600;
+        color: #666;
+        margin-bottom: 5px;
+        font-size: 17px;
+        margin-right: 5px;
+      }
+      .content-down-shot-price {
+        font-size: 14px;
+        color: #666;
+        margin-top: 5px;
+      }
+      .content-down-shot-more {
+        color: cornflowerblue;
+        cursor: pointer;
+        margin-left: 5px;
+      }
+    }
+    .content-down-detail {
+      .content-down-detail-title {
+        font-weight: 600;
+        color: #666;
+        margin-bottom: 5px;
+        font-size: 17px;
+      }
+      .content-down-detail-up {
+        padding: 10px 5px;
+        background-color: #f8f8f8;
+        border: 1px solid #ccc;
+        .content-detail-up-price {
+          margin-bottom: 5px;
+          .content-down-shot-up-title {
+            font-size: 14px;
+            color: #666;
+            margin-top: 5px;
+          }
+          .content-down-shot-up-price {
+            float: right;
+            font-size: 14px;
+            color: #666;
+            margin-top: 5px;
+          }
+        }
+        .content-detail-up-text {
+          font-size: 13px;
+          color: #666;
+          margin-top: 5px;
+        }
+      }
+      .content-down-detail-down {
+        padding: 10px 5px;
+        background-color: #eee;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+      }
+    }
+    .content-down-shot-more {
+      color: cornflowerblue;
+      cursor: pointer;
+    }
+  }
+}
+
+.css-df17o1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

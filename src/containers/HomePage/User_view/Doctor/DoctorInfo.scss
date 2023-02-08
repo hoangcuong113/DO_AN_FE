@@ -1,0 +1,40 @@
+.doctor-info-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  p {
+    margin: 0;
+  }
+  .detail-doctor-top-left {
+    .avatar-doctor {
+      margin-right: 20px;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+  .detail-doctor-top-right {
+    .detail-doctor-title {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .doctor-schedule {
+      font-weight: bold;
+      color: rgb(34, 106, 240);
+    }
+    .redirect-doctorInfo {
+      margin-top: 6px;
+    }
+  }
+}
+
+.css-df17o1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

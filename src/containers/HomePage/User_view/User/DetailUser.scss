@@ -1,0 +1,54 @@
+.detail-specialty-container .detail-specialty-content::after {
+  background: transparent;
+}
+.detail-specialty-container {
+  .user-detail {
+    display: flex;
+    min-height: 75vh;
+    .user-option {
+      width: calc(15% - 10px);
+      margin-right: 10px;
+      border-right: 1px solid #eee;
+      .about-user {
+        margin: 10px 0 20px 0;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        .user-img {
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          background-color: #ccc;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          border: 1px solid #eee;
+        }
+        .user-name {
+          font-size: 14px;
+          font-weight: bold;
+          margin-left: 10px;
+        }
+      }
+      .user-list-options {
+        .user-list-item {
+          padding: 10px;
+          border-bottom: 1px solid #000;
+          cursor: pointer;
+          width: fit-content;
+          margin-bottom: 5px;
+        }
+      }
+    }
+    .user-content {
+      width: calc(85% - 10px);
+      margin-bottom: 20px;
+      .content-title {
+        padding: 10px 0;
+        border-bottom: 2px solid rgb(28, 27, 27);
+        font-size: 18px;
+        font-weight: bold;
+      }
+    }
+  }
+}

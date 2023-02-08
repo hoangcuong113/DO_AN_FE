@@ -1,0 +1,67 @@
+.detail-specialty-container {
+  h2 {
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    background-color: dodgerblue;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  padding: 10px;
+  background-color: #eee;
+  .detail-specialty-content {
+    margin-top: 75px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 1px 6px #20212447;
+    padding: 10px 20px;
+  }
+  .detail-specialty-body {
+    padding: 20px 0;
+    .select-province {
+      margin-bottom: 20px;
+      select {
+        padding: 8px;
+        border-radius: 5px;
+      }
+    }
+    .about-doctor {
+      display: flex;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 15px;
+      box-shadow: 0 1px 6px #20212447;
+      background-color: #fff;
+      .about-detail-doctor {
+        width: 50%;
+        border: none !important;
+        .doctor-info-container {
+          .detail-doctor-top-left {
+            .avatar-doctor {
+              width: 140px;
+              height: 140px;
+            }
+          }
+        }
+      }
+      .about-schedule-doctor {
+        border-left: 1px solid #ccc;
+        width: 50%;
+        padding: 10px;
+        .schedule-doctor {
+          .container {
+            padding: 0;
+          }
+        }
+        .doctor-more-detail {
+          border: none !important;
+          padding: 0 !important;
+        }
+      }
+    }
+  }
+}

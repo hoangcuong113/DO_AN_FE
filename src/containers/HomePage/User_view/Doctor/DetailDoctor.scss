@@ -1,0 +1,102 @@
+.detail-doctor-top {
+  margin-top: 70px;
+  .content-detail-top {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .detail-doctor-top-left {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    .avatar-doctor {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+  .detail-doctor-top-right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    .detail-doctor-title {
+      width: 100%;
+      font-size: 30px;
+      font-weight: 600;
+    }
+    .detail-doctor-des {
+      font-size: 14px;
+      color: grey;
+    }
+  }
+  .schedule-doctor-container {
+    width: 100%;
+    display: flex;
+    min-height: 250px;
+    .schedule-left {
+      width: 50%;
+    }
+    .schedule-right {
+      width: 50%;
+    }
+  }
+}
+
+.detail-doctor-content {
+  h3 {
+    font-size: 18px;
+    color: dodgerblue;
+  }
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background-color: #f9f9f9;
+  padding: 20px;
+  .detail-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px #20212447;
+  }
+}
+
+.detail-doctor-comments {
+  padding: 10px 0;
+  .total-rating {
+    .rating {
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+  .title-comment {
+    padding: 10px 0;
+    font-size: 17px;
+    font-weight: bold;
+    color: cornflowerblue;
+  }
+  .comment-content-block {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px #20212447;
+    margin-bottom: 20px;
+    .user-name {
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .user-rating {
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.css-df17o1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
